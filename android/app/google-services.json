@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486133882145",
+    "project_id": "mlocations-5ead1",
+    "storage_bucket": "mlocations-5ead1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486133882145:android:957989897587745f5bb260",
+        "android_client_info": {
+          "package_name": "com.mlocations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486133882145-5bjbs3cni9fbqkb3tkga2stj4uj911ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mlocations",
+            "certificate_hash": "376eedb50104059eb74bc977e5ba348c2c77b9da"
+          }
+        },
+        {
+          "client_id": "486133882145-r8ahvo21ec07f5f4ud6vmbr5l37dirv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSAQTfT-ldK09UqigJKKWb4BGdw-MpKcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486133882145-r8ahvo21ec07f5f4ud6vmbr5l37dirv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

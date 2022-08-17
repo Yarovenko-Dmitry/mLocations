@@ -1,11 +1,11 @@
-import React from 'react';
-import { View, Text } from "react-native";
+import React, {FC} from 'react';
 
-export const MainScreen = () => {
+import {View, Text} from 'react-native';
 
-    return (
-        <View>
-            <Text>MainScreen</Text>
-        </View>
-    )
-}
+export const MainScreen: FC = () => {
+  return (
+    <View>
+      <Text>MainScreen</Text>
+    </View>
+  );
+};

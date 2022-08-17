@@ -9,7 +9,10 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "pods": "cd ios && pod install",
+    "pods-m1": "cd ios && arch -x86_64 pod install",
     "gradlew": "cd android && ./gradlew clean && ./gradlew installDebug",
+    "gradlew-m1": "cd android && ./gradlew clean && cd .. && npm cache clean --force",
+    "gradlew-m1-y": "cd android && ./gradlew clean && cd .. && yarn cache clean",
     "kill-port": "npx kill-port 8081"
   },
   "dependencies": {

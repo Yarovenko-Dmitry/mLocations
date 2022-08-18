@@ -1,7 +1,8 @@
 export type SetIsLoggedType = (isLogged: boolean) => void;
 
-export type AuthScreenType = {
+export type ScreenType = {
   setIsLogged: SetIsLoggedType;
+  GoogleSignin: any;
 };
 
-export type onGoogleButtonPressType = (setIsLogged: SetIsLoggedType) => void;
+export type EmptyFooType = () => void;

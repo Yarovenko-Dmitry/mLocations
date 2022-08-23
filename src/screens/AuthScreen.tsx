@@ -3,7 +3,8 @@ import React, {FC} from 'react';
 import auth from '@react-native-firebase/auth';
 import {Button, StyleSheet, Text, View} from 'react-native';
 
-import {ScreenType, EmptyFooType} from './types';
+import {PasswordReset} from '../components/PasswordReset';
+import {EmptyFooType, ScreenType} from './types';
 
 export const AuthScreen: FC<ScreenType> = props => {
   const {GoogleSignin, setIsLogged} = props;
@@ -26,6 +27,7 @@ export const AuthScreen: FC<ScreenType> = props => {
     <View style={styles.auth}>
       <Text>AuthScreen</Text>
       <Button title='Google Sign-In' onPress={onGoogleButtonPress} />
+      <PasswordReset />
     </View>
   );
 };
